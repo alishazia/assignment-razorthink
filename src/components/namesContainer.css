@@ -1,0 +1,19 @@
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 100%;
+}
+
+.inputStyle{
+    margin-top:2%;
+    font-size: 1.5em;
+    padding: 3px;
+    display: inline-block;
+    width: 30%;
+    border-radius: 20px;
+    border:1.3px solid grey;
+}
+textarea:focus, input:focus{
+    outline :none;
+}
